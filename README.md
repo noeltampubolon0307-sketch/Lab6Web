@@ -6,8 +6,8 @@ Repository ini dibuat untuk menyelesaikan tugas Praktikum 6 Pemrograman Web.
 | Keterangan      | Data                          |
 | --------------- | --------------------          |
 | **Nama**        | Noel Marihot Tampubolon       |
-| **Kelas**       | I251B                         |
-| **NIM**         | 312510326                     |
+| **Kelas**       | I251D                         |
+| **NIM**         | 312510419                     |
 | **Mata Kuliah** | Pemrograman Web               |
 | **Dosen**       | Agung Nugroho, S.Kom., M.Kom. |
  
@@ -42,8 +42,7 @@ Lab6Web/
 | `style.css`   | Style untuk class `highlight`, `teks-besar`, `selesai`, dan `sembunyi` |
 | `MiniProject/` | Mini project Form Pendaftaran Workshop (HTML, CSS, dan JavaScript tersendiri) |
  
-
-<img width="227" height="213" alt="image" src="https://github.com/user-attachments/assets/6cd67f16-3a57-4032-b721-bea9f18fa66e" />
+<img width="118" height="204" alt="ss pertama" src="https://github.com/user-attachments/assets/71cfa3a7-1cf0-4fb0-98fd-f63915e5fb4d" />
 
 ---
  
@@ -68,11 +67,11 @@ Lab6Web/
  
 Membuat dokumen `index.html` dengan judul "Praktikum DOM dan Event" yang berisi `<h1 id="judul">`, `<p id="pesan">`, dan `<button id="tombolAksi">`.
  
-<img width="803" height="336" alt="image" src="https://github.com/user-attachments/assets/a58b1840-2d50-4f87-91bd-935a2fccf45a" />
+<img width="657" height="269" alt="ss pertama benar" src="https://github.com/user-attachments/assets/41bed784-ad4f-41eb-a95f-837cc09c0c95" />
 
 Hasil sebelum menggunakan `script.js`:
  
-<img width="436" height="256" alt="image" src="https://github.com/user-attachments/assets/f9cd16c2-953c-4315-af20-fb5f66f3a85f" />
+<img width="230" height="148" alt="ss ke 2" src="https://github.com/user-attachments/assets/3dd508ab-8bf0-4dd2-850b-8285451396ba" />
 
 Kemudian dibuat `script.js` untuk mengambil elemen dengan `getElementById()` dan mengubah isinya menggunakan `textContent`.
  
@@ -85,7 +84,7 @@ pesan.textContent = "Konten berhasil diubah oleh JavaScript.";
  
 Hasil di browser: judul berubah menjadi "Belajar JavaScript DOM" dan pesan menjadi "Konten berhasil diubah oleh JavaScript."
  
-<img width="561" height="314" alt="image" src="https://github.com/user-attachments/assets/fc966e59-eb2e-4ce5-a70a-10ce9cf5e870" />
+<img width="362" height="142" alt="ss defer yang belum" src="https://github.com/user-attachments/assets/25f70d6a-c412-42a6-9070-b7d246044bac" />
 
 ---
  
@@ -93,12 +92,12 @@ Hasil di browser: judul berubah menjadi "Belajar JavaScript DOM" dan pesan menja
  
 Menambahkan `addEventListener("click", ...)` pada tombol "Klik saya" untuk menampilkan waktu saat tombol ditekan.
 
-<img width="1078" height="129" alt="image" src="https://github.com/user-attachments/assets/872e74dc-87b2-4963-976d-e6a7d1de17f9" />
+<img width="639" height="80" alt="ss ke 4" src="https://github.com/user-attachments/assets/f8885dc9-0442-4c0b-9698-5b7f780965bc" />
 
  
-Hasil di browser: setelah tombol diklik, muncul teks "Tombol diklik pada 18.34.36" (sesuai waktu saat diklik).
+Hasil di browser: setelah tombol diklik, muncul teks "Tombol diklik pada 4.20.36" (sesuai waktu saat diklik).
  
-<img width="486" height="252" alt="image" src="https://github.com/user-attachments/assets/d4c4d13f-d116-4d20-b0ef-8b3e6f51f884" />
+<img width="373" height="142" alt="ss defer" src="https://github.com/user-attachments/assets/2a715d42-d060-47b5-903e-fec35fa12a1f" />
 
 ---
  
@@ -106,16 +105,19 @@ Hasil di browser: setelah tombol diklik, muncul teks "Tombol diklik pada 18.34.3
  
 Menambahkan paragraf `#teksGaya` dan tombol `#tombolGaya` pada HTML. Saat tombol diklik, class `highlight` dan `teks-besar` di-*toggle* menggunakan `classList.toggle()`.
  
-<img width="729" height="157" alt="image" src="https://github.com/user-attachments/assets/b7aacaea-69d1-4594-b0af-288abef84fca" />
 
-<img width="753" height="185" alt="image" src="https://github.com/user-attachments/assets/369f19a8-64f5-4f28-9bea-7d2db4acdef8" />
+<img width="558" height="119" alt="ss ke 5" src="https://github.com/user-attachments/assets/4116ac33-fe52-415a-85a6-f6cff8ba36bf" />
+
+<img width="497" height="116" alt="ss ke 6" src="https://github.com/user-attachments/assets/8327ad81-9e82-4a60-bbe7-180a3b8fde64" />
+
 
 
  
 CSS yang digunakan pada `style.css`:
 -
  
-<img width="410" height="243" alt="image" src="https://github.com/user-attachments/assets/99b2e6b0-7da7-44c5-914c-f215aa8a1047" />
+
+<img width="333" height="195" alt="ss ke 6 benar" src="https://github.com/user-attachments/assets/222336c6-0d96-4341-9294-f118ab293a95" />
 
  
 Hasil di browser: teks berubah menjadi bergaya highlight dengan ukuran font lebih besar, dan kembali normal jika tombol diklik lagi.
@@ -131,16 +133,17 @@ Hasil di browser: teks berubah menjadi bergaya highlight dengan ukuran font lebi
 Menambahkan `<input type="text" id="namaInput" maxlength="40">` dan `<span id="jumlahKarakter">`. Event `input` digunakan agar jumlah karakter terupdate setiap kali pengguna mengetik.
  
 > Catatan: ditambahkan tag `<br /><br />` sebagai pemisah karena kotak input nama tidak turun ke baris baru.
- 
-<img width="853" height="282" alt="image" src="https://github.com/user-attachments/assets/d2960d70-96a7-4688-aa97-2274f20cf60a" />
 
- <img width="887" height="160" alt="image" src="https://github.com/user-attachments/assets/231e9456-6fd0-43cc-a184-1af707700970" />
+ <img width="540" height="173" alt="ss ke 8" src="https://github.com/user-attachments/assets/a6229a0b-bb58-44f1-ab55-0c7018cad1f5" />
 
-Hasil di browser: saat mengetik "Rafli Putra Sudrajat", tampil "Jumlah karakter: 20".
+
+<img width="556" height="95" alt="ss ke 9" src="https://github.com/user-attachments/assets/7a7fcc93-db94-4d7b-80a7-16dd5a7ddbcd" />
+
+Hasil di browser: saat mengetik "Noel Marihot Tampubolon", tampil "Jumlah karakter: 23".
  
 <img width="372" height="105" alt="image" src="https://github.com/user-attachments/assets/b543ff1b-aefc-4d5a-a204-dd78c5a3d400" />
 
-<img width="373" height="111" alt="image" src="https://github.com/user-attachments/assets/771da4f4-ce10-4dca-91ea-c02761be6ced" />
+<img width="246" height="71" alt="ss ke 10" src="https://github.com/user-attachments/assets/9b4f1692-4b12-4bf0-b313-483e0eb3968a" />
 
 ---
  
@@ -161,9 +164,8 @@ Hasil di browser:
 - Input valid → muncul pesan "Validasi berhasil. Formulir siap diproses."
 - Email tidak valid (`emailtidakvalid`) → muncul pesan "Masukkan email yang valid."
 <img width="859" height="60" alt="image" src="https://github.com/user-attachments/assets/2963774f-0279-43ee-9ab6-015bdefbcd9f" />
-<img width="872" height="66" alt="image" src="https://github.com/user-attachments/assets/6b95d000-82cb-4824-a014-705a9df52636" />
+<img width="2928" height="222" alt="ss email noel" src="https://github.com/user-attachments/assets/46b75382-5c23-47c5-978d-9eaa9a4181ee" />
 <img width="881" height="81" alt="image" src="https://github.com/user-attachments/assets/c40f39bf-f983-43bd-ae15-3001b58c9325" />
-
 <img width="881" height="109" alt="image" src="https://github.com/user-attachments/assets/7996638a-a2af-4e83-882f-3be377b6a98c" />
 
 ---
@@ -195,26 +197,38 @@ Mini project berada di folder `MiniProject/` dan berisi form pendaftaran worksho
 - **Validasi** pada event `submit` dengan `preventDefault()` untuk nama, email, pilihan sesi, dan panjang alasan.
 - **Pesan notifikasi** sukses (`alert-success`) atau gagal (`alert-error`).
 - **Tombol Reset** yang membersihkan input, pesan error, dan hitungan karakter melalui event `reset`.
-<img width="536" height="375" alt="image" src="https://github.com/user-attachments/assets/db8cf97b-d709-40a7-a982-b6e67429e40a" />
 
-<img width="518" height="372" alt="image" src="https://github.com/user-attachments/assets/31f15351-a116-4897-adae-c29364aa5e8a" />
+<img width="668" height="693" alt="ss projek" src="https://github.com/user-attachments/assets/15972f1d-a6f2-4510-9bea-1879aef3caaa" />
 
-<img width="394" height="511" alt="image" src="https://github.com/user-attachments/assets/64d69cb9-fa87-4a35-9d8c-1b4251d2ea1b" />
+
+<img width="617" height="592" alt="ss projek 2" src="https://github.com/user-attachments/assets/217b058c-6b9e-42c6-9b51-f1595214834d" />
+
+
+<img width="626" height="630" alt="ss script js" src="https://github.com/user-attachments/assets/037b9bd7-0f90-43e3-8c47-fab47da7237c" />
 
 Code Script.Js
 ---
-<img width="561" height="535" alt="image" src="https://github.com/user-attachments/assets/af902af8-d62a-45a4-87b8-69686bd94bc8" />
+
+<img width="686" height="670" alt="ss script js 2" src="https://github.com/user-attachments/assets/3161a798-a4cd-4eb7-ac7f-ace1b34137c0" />
+
+<img width="677" height="666" alt="ss script js 3" src="https://github.com/user-attachments/assets/4ef26df1-f8d3-4e96-802b-904fca6f29bc" />
+
+<img width="670" height="210" alt="ss script 4" src="https://github.com/user-attachments/assets/0bb06eba-5b21-46c6-916d-27f1fb13895c" />
+
 
 
 Hasil tampilan di browser (desktop):
 --- 
-<img width="743" height="329" alt="image" src="https://github.com/user-attachments/assets/1163f9b1-9c0f-4bdb-8866-88977560d45a" />
-<img width="414" height="439" alt="image" src="https://github.com/user-attachments/assets/76c9a554-03a5-47ad-ba84-94a19d8c0a69" />
+
+<img width="1535" height="863" alt="ss workshop" src="https://github.com/user-attachments/assets/31dd0ca3-faa3-4ccd-94e9-a735c5774e5b" />
+
+<img width="654" height="610" alt="ss workshop 2" src="https://github.com/user-attachments/assets/b3a52a4a-60b9-455b-9ed9-116845943050" />
 
 
 Hasil tampilan responsif (mobile) saat validasi gagal karena alasan melebihi 200 karakter:
 ---
- <img width="999" height="525" alt="image" src="https://github.com/user-attachments/assets/1aa8af81-1ff6-49fb-8a3f-f95aeecccf69" />
+
+<img width="1424" height="748" alt="ss email salah" src="https://github.com/user-attachments/assets/c4545bbb-2af3-4a8c-83cd-1f1d419d7d71" />
 
 ---
  
@@ -224,11 +238,13 @@ Hasil tampilan responsif (mobile) saat validasi gagal karena alasan melebihi 200
  
 Setiap item tugas diberi tombol "Hapus" (class `btn-hapus`). Saat diklik, item dihapus dari daftar dan muncul pesan "Tugas dihapus."
  
-<img width="767" height="544" alt="image" src="https://github.com/user-attachments/assets/25e2fc0e-671d-4741-9e49-98113dab3289" />
+
+<img width="553" height="348" alt="ss todolist" src="https://github.com/user-attachments/assets/5f1202eb-fe69-473e-a621-3a5dc1fd2dff" />
 
 code Script.js
 ---
-<img width="780" height="296" alt="image" src="https://github.com/user-attachments/assets/320beecc-2108-4f2b-89b6-4950daa63555" />
+
+<img width="459" height="202" alt="ss tombol tugas" src="https://github.com/user-attachments/assets/9e3fb167-93ee-4265-8ce1-2f26eff06351" />
 
 Sebelum dihapus:
 ---
@@ -243,11 +259,13 @@ Sesudah tugas "Pemograman Web" dihapus:
  
 Pada Form Pendaftaran Workshop ditambahkan validasi tambahan menggunakan `querySelector()` untuk memastikan nama minimal terdiri dari 3 karakter. Jika kurang, `preventDefault()` dan `stopImmediatePropagation()` dipanggil, pesan "Nama minimal terdiri dari tiga karakter." ditampilkan, dan fokus dikembalikan ke input nama.
  
-<img width="550" height="91" alt="image" src="https://github.com/user-attachments/assets/b03a5fb4-e4d1-4b70-b133-b190ff4ff4c9" />
+
+<img width="523" height="218" alt="ss mini project" src="https://github.com/user-attachments/assets/aa109a5c-86b2-4c5d-ab54-e637b0fb34f3" />
 
 Code script.Js
 ---
-<img width="422" height="266" alt="image" src="https://github.com/user-attachments/assets/377c27a3-c0dc-4017-8c98-ce2fcf1816e2" />
+
+<img width="661" height="495" alt="ss validasi nama" src="https://github.com/user-attachments/assets/cb48313a-ef22-42d8-b114-82ebbe1bc6f4" />
 
 
 Tampilan pilihan sesi pada mobile
@@ -256,7 +274,8 @@ Tampilan pilihan sesi pada mobile
 
 Dropdown pada From Sesi Workshop
 ---
-<img width="215" height="391" alt="image" src="https://github.com/user-attachments/assets/8f57ce8e-12ba-4eb0-b6fe-394d5a31f813" />
+
+<img width="768" height="1397" alt="ss email di hp" src="https://github.com/user-attachments/assets/298e44cf-a8c6-4903-8d04-18f91b788041" />
 
 
 
@@ -264,15 +283,18 @@ Dropdown pada From Sesi Workshop
  
 Menambahkan class `.sembunyi { display: none; }` dan tombol `#btnToggleParagraf`. Saat diklik, class `sembunyi` di-*toggle* pada paragraf dan teks tombol berganti antara "Sembunyikan" dan "Tampilkan".
  
-<img width="1078" height="136" alt="image" src="https://github.com/user-attachments/assets/6341faa2-a903-4982-be76-f2d3aa769921" />
+
+<img width="674" height="189" alt="ss akhir" src="https://github.com/user-attachments/assets/6b65c7ea-b198-426b-b57d-e7d698e9135a" />
 
 Code Style.Css
 ---
-<img width="320" height="105" alt="image" src="https://github.com/user-attachments/assets/117ba51a-1f01-4596-b0a0-f49939cbc841" />
+
+<img width="196" height="62" alt="ss akhir 2" src="https://github.com/user-attachments/assets/584aa5fb-5fe7-4072-9169-4b2a07d9c5d4" />
 
 Code Script.js
 ---
-<img width="817" height="122" alt="image" src="https://github.com/user-attachments/assets/89f8ce73-d447-479e-81cd-9c7bd0afbaf8" />
+
+<img width="673" height="214" alt="ss akhir 3" src="https://github.com/user-attachments/assets/22488bd9-b04d-4d47-b6c7-5bf02d7b4268" />
 
 
  Hasil nya :
@@ -289,12 +311,14 @@ Setelah di klik
  
 Tag `<script src="script.js">` dipindahkan ke dalam `<head>` **tanpa** atribut `defer`. Hasilnya, console menampilkan error:
 
-<img width="678" height="169" alt="image" src="https://github.com/user-attachments/assets/4ad8eaca-0b8c-4da7-9e96-1d3519322ab4" />
+
+<img width="651" height="191" alt="ss end benar" src="https://github.com/user-attachments/assets/55d40771-ffb5-4fba-b5d6-536958fe66ad" />
 
  
 Error terjadi karena script dijalankan sebelum elemen HTML selesai dimuat, sehingga `getElementById()` mengembalikan `null`. Solusinya adalah meletakkan script di akhir `<body>` atau menambahkan atribut `defer` pada tag script.
  
-<img width="827" height="334" alt="image" src="https://github.com/user-attachments/assets/7ca377bf-0768-4b60-822e-84c52d3ddbc6" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 182544" src="https://github.com/user-attachments/assets/202a3891-3b57-4ff2-bf95-35d5cae0605a" />
 
 ---
  
